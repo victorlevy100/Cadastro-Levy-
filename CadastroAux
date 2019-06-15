@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./Style.css">
+</head>
+<body>
+    <!-- 
+        Nome
+        Data de Nascimento 
+        Cpf
+        Email: 
+        Senha:
+        Confirmar senha:
+        CRP 
+    -->
+    <div class="container">
+    <form class="form-inline" action="#">
+        <div >
+            <label>Nome</label>
+            <input type="text" class="form-control" placeholder="Enter email" name="cad-nome" required />
+        </div>
+        <div>
+            <label>Sobrenome</label>
+            <input type="text" class="form-control" placeholder="Digite o Sobrenome" name="cad-sobrenome" required />
+        </div>
+        <div >
+            <label>Data de Nascimento</label>
+            
+            <input type="date" class="form-control" placeholder="Digite o Sobrenome" name="cad-date" required />
+        </div>
+
+        <div >
+            <label>CPF</label>
+            <br/>
+            <input type="number" class="form-control" placeholder="Digite o Sobrenome" name="cad-cpf" maxlength="11" required />
+        </div>
+
+        <div >
+            <label>Email</label>
+            <br/>
+            <input type="email" class="form-control" placeholder="Digite o Sobrenome" name="cad-email" required />
+        </div>
+
+        <div >
+            <label>Senha</label>
+            <br/>
+            <input type="password" class="form-control" placeholder="Digite o Sobrenome" name="cad-password" required />
+        </div>
+
+        <div >
+            <label>Confirmar senha</label>
+            <br/>
+            <input type="password" class="form-control" placeholder="Digite o Sobrenome" name="cad-password-confirm" required />
+        </div>
+    </form>
+    <br/>
+        <input type="submit" name="cad-submit" required />
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
