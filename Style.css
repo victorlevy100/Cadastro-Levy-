@@ -5,58 +5,53 @@
 	background: #002457;
 
 }*/
-
-#mov{
-	padding-left: 36%;
-}
-#bt{
-padding-left: 40%;
-
-}
-a:link, a:visited {
-	text-decoration: none
-	}
-a:hover {
-	text-decoration: underline;
-	color: #f00
-	}
-a:active {
-	text-decoration: none;
-	}
-.form-inline{
-	width: 100%;
-}
-
 .container{
-	margin-top: 20px;
-	background: #f3f3f3;
-	width: 50%;
-	height: 500px;
+	
+	position: relative;
+	top: 50px;
+	width: 350px;
+	height: 400px;
+	background: #e4e1e1fa;
+	border-radius: 7px;
 }
-.dados{
-	display: flex;
-	float: left;
-	width: 296px;
-	height: 100px;
-	margin: 4px;
+.degrade{
+		left: 35%;
+	position: absolute;
+	top: 50px;
+	width: 300px;
+	height: 200px;
+	background: red;
+	border-radius: 7px;
+}
+#mov{
+	text-align: center;
+	padding-top: 80px;
 }
 
-#button {
-	position: relative;
-top: 80px;
-width: 25%;
-height: 40px;
-right: 10%;
-border: none;
-background: #0e69ff;
-border-radius: 3px;
+button.click{
+	float: left;
+	margin-left: 30PX;
+	margin-top: 30px;
 }
-#button:hover{
-	opacity: 0.7;
-	transition: .2s;
+
+ button{
+	width: 100px;
+	height: 40px;
+	background: #16169e;
+	border: none;
+	border-radius: 5px;
+
 }
-input.form-control{
-	margin-left: 4px;
-	position: relative;
-	top: 30px;
+a{
+	color:#fafafa;
+}
+a:link, a:hover{
+	text-decoration: none;
+	color:#fafafa;
+
+}
+
+#grupob{
+	padding-left: 40%;
+	padding-top: 10%;
 }
